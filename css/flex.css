@@ -1,0 +1,21 @@
+div{
+  background-color: violet;
+  margin:10px;
+  padding: 20Px;
+  font-size: 30px;
+  color:red;
+}
+.flex{
+  align-items: center;
+  height: 400px;
+display: flex;
+  background-color: black;
+  /*flex-direction:row;
+  flex-wrap: wrap;
+  text-align:center;*/
+  flex-flow: row wrap;
+  justify-content: space-around;
+/*  align-content: center;*/
+
+
+}

@@ -1,0 +1,48 @@
+
+table,  td {
+  background-color: #000000b3;
+  padding:15px;
+    background-image: url('./26.jpg');
+  text-align: center;
+  border: 1px solid black;
+  border-collapse:separate;
+
+
+}
+
+body{
+  background-color: #000000b3;
+background-image: url('./27.jpg');
+  text-align:center;
+
+}
+h1{
+  text-align: center;
+}
+ th{
+
+   padding-right:50%;
+   padding-left: 50%;
+  width:10%;
+  height: 50px;
+
+  text-align: center;
+}
+td{
+  width:10%;
+}
+
+button[type=submit]  {
+  margin-top: auto;
+  width: 20%;
+  background-color: green;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  margin-left:8px ;
+  border-radius: 4px;
+  cursor:pointer;}
+a{
+  text-decoration: none;
+  color :#fff;
+}

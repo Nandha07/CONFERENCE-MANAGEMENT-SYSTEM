@@ -1,0 +1,442 @@
+
+ span{
+   color:orange;
+   }
+  table,th,td{
+
+    border-collapse: collapse;
+  }
+ tbody{
+    color:red;
+  }
+  .head
+  {
+    text-shadow: white;
+    color:violet;
+    font-family: arial;
+    font-weight: 50px;
+    background-color: black;
+  }
+/**  <!-- css selecters **/
+
+  * {
+
+    /*color:violet;
+    font-family: arial;
+    font-weight: 30px;
+    background-color: black;
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: green;
+      background-image:url(../css/work.jpg);**/
+   }
+
+  /**-- class -->*/
+
+
+
+  .intro {
+          color:violet;
+          font-family: arial;
+            font-weight: 30px;
+            background-color: black;
+            border-style:solid;
+
+            border-top: dotted;
+            border-left:solid;
+            border-right: solid;
+
+           /**background-image:url(../css/download.jpg);*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 700px;
+            outline: 7px;
+
+            outline-color: violet
+            ;
+            outline-style: dashed;
+
+      }
+      /** css width/height*/
+
+      .testimonal{
+        outline:5px;
+        outline-color: green;
+        outline-style:dotted;
+        text-align: center;
+        color:violet;
+        background-color: black;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        width: auto;
+      /*  text-indent: 50px;**/
+      /*text-shadow: 20px white;
+/*text-decoration: line-through;*//*
+text-transform: capitalize;*/
+/*text-decoration: underline;*/
+/*text-decoration: overline;*/
+      }
+
+/**
+  }
+  <!-- id -->
+  #intro{
+    color:violet;
+    font-family: arial;
+    font-weight: 30px;
+    background-color: black;
+
+  }
+
+
+  .intro h1{
+    color:red;
+    font-family: arial;
+    font-weight: 30px;
+    background-color: black;
+}**/
+
+.intro button{
+
+  border-top: solid;
+  border-bottom: solid;
+  border-left:solid;
+  border-right:solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  padding-bottom: 2px;
+
+}
+.intro img{
+  padding-top: 2px;
+}
+.links a{
+  padding=20px;
+  color:violet;
+}
+.links a:link{
+  color:yellow;
+}
+.links a:active{
+  color:red;
+}
+.links a:hover{
+  color:green;
+}
+.links{
+  background-color: black;
+}
+
+
+.links a:visited{
+  color :orange;
+
+}
+.links button{
+  border-top: solid;
+  border-bottom: solid;
+  border-left:solid;
+  border-right:solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding-bottom: 2px;
+  color:violet;
+  background-color: black;
+}
+.lists{
+  background-color: black;
+
+}
+.lists ol{
+  list-style-position: outside;
+  background-color: hotpink;
+}
+.lists li{
+  /*list-style-type: square;*/
+  background:red;
+  /*list-style-image: url(../css/work.jpg);*/
+}
+ table{
+  width:100%;
+  border-collapse: collapse;
+
+}
+ th{
+  border:1px solid;
+  background-color: blue;
+  padding :15px;
+}
+ td{
+  padding :10px;
+}
+
+ tr:hover{
+  background-color: blue;
+}
+ tr:nth-child(odd){
+  background-color:blue;
+}
+.display ol li {
+  padding:2px;
+  margin-left: 50PX;
+  color:violet;
+  background-color: black;
+  display:inline;
+
+}
+.display  button{
+  padding: 5px;
+  text-align:center;
+  color: violet;
+  background-color: black;
+  /*display: none;*/
+  visibility:hidden;
+
+}
+.display{
+  color: violet;
+  background-color: black;
+}
+.static{
+  border: 2px;
+  position: static;
+  border-color: blue;
+}
+.relative{
+  border: 2px  solid red;
+  position: relative;
+  left:30px;
+
+}
+.fixed{
+  color:white;
+  width:100%;
+  border: 2px  solid red;
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+  background: black;
+  padding:2px;
+}
+.relatives{
+  position: relative;
+  border: 3px  solid black;
+
+  left:40%;
+  width: 400%;
+  height:500px;
+}
+.absolute{
+  position: absolute;
+  top:80px;
+  right:0;
+  border: 1px solid black;
+}
+.sticky{
+  position: sticky;
+  top:0;
+  position: -webkit-sticky;
+  border: 1px solid black;
+  background-color: blue;
+  text-align: center;
+}
+.float{
+  padding: 30;
+  background-color: black;
+  color:violet;
+
+}
+.float img{
+  padding: 10px;
+  float: left;
+  margin-left: 10px;
+  background-color: red;
+}
+#float-example div{
+  padding:20px;
+  text-align: center;
+  width: 100px;
+}
+.green{
+  background-color: green;
+  float: left;
+}
+.red{
+  float: left;
+  background-color: red;
+
+}
+.blue{
+  float: left;
+  background-color: blue;
+
+}
+.orange{
+  float: right;
+  background-color: orange;
+}
+.yellow{
+  float: right;
+  background-color: yellow;
+
+}
+.brown{
+  float: right;
+  background-color: brown;
+}
+.clearboth{
+  clear: both;
+}
+.layout div{
+  color:violet;
+  padding: 20px;
+  text-align: center;
+  margin:2px ;
+}
+.navbar{
+
+  background-color: black;
+}
+.menu{
+  width: 29%;
+  height: 200px;
+  float:left;
+  background-color: blue;
+
+}
+.content{
+  width: 29%;
+  height: 200px;
+
+  background-color:skyblue;
+  float: left;
+}
+.sidebar{
+  width: 30%;
+  height: 200px;
+
+  background-color: orange;
+  float: left;
+}
+.footer{
+  clear: both;
+  background-color: green;
+}
+/**desentens*/
+
+div p{
+  color:red;
+}
+/**#adjacent_selector > h2{
+  color: green;
+}*/
+#adjacent_selector + h2{
+  color: yellow;
+}
+/**  #adjacent_selector ~ h2{
+    color: blue;
+}*/
+
+/** psuedo elements*/
+.psuedo-elements  p::first-letter{
+  color:blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.psuedo-elements  h1::after{
+  content:';)';
+}
+.psuedo-elements  h1::before{
+  content:'section:';
+}
+::selection{
+  background-color: green;
+  color:blue;
+}
+.opacity {
+  width: 950px;
+  background-color: black;
+}
+.opacity img{
+  height:500px;
+  width: 950px;
+  opacity:1;
+}
+.opacity img:hover{
+  opacity:0.5;
+}/*
+[class]{
+  color:red;
+}
+[class|=opacity]
+{
+  color:blue;
+}
+[class*='.']{
+  color:lime;
+}
+[src~=alt]
+{
+  color:yellowgreen;
+}*/
+.forms{
+  padding:20px 20px;
+  background-color:lightgrey;
+}
+input[type=text]{
+  width:100%;
+  padding:12px 20px;
+  margin:15px 0;
+  border:1px grey;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+button[type=submit] {
+  width: 100%;
+  background-color: green;
+  color:white;
+  padding:14px 20px;
+  border:none;
+  margin :8px ;
+  border-radius: 4px;
+  cursor:pointer;
+}
+button [type=submit]:hover{
+  color:black;
+}
+
+.counters{
+ padding:20px;
+  background-color: green;
+}
+h2::before{
+  counter-increment:videos;
+  content:"videos #" counter(videos)":";
+}
+/* media*/
+
+@media screen and (max-width:900px) {
+  body{
+    background-color: lightblue;
+    /*counter-reset:videos;*/
+
+}
+@media screen and (max-width:500px) {
+  body{
+    background-color: violet;
+    /*counter-reset:videos;*/
+
+}

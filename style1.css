@@ -1,0 +1,64 @@
+.forms1{
+  position:absolute;
+  box-sizing: border-box;
+  background-color: #000000b3;
+  padding: 10px 40px;
+  border-color: red;
+  border-spacing: 100%;
+
+  background-size: cover;
+  float:center;
+  border-radius: 10px;
+  outline:5px;
+outline-color: absolute;
+  outline-style: groove;;*/
+float:center;
+  color:violet;
+  width:40%;
+  height:80% ;
+  text-align:center;
+  margin-left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  line-height:200%;
+}
+ body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./19.jpg");
+}
+h1{
+  font-style: italic;
+  text-decoration:underline;
+  text-decoration-color: violet;
+  text-align: center;
+}
+
+button[type=submit] {
+  width: 20%;
+  background-color: green;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  margin-left:8px ;
+  border-radius: 4px;
+  cursor:pointer;
+}
+input[type=file] {
+  width: 20%;
+  background-color: absolute;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  margin-left:8px ;
+  border-radius: 4px;
+  cursor:pointer;
+}
+input[type=email] {
+  width: 20%;
+  background-color: absolute;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  margin-left:10px ;
+  border-radius: 4px;
+  cursor:pointer;
+}
